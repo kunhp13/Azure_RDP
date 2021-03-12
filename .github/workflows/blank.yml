@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           - script: |
-          echo ngrok authtoken "1pbPjljrBK0UeFPouaSrjGUyMCQ_7UV9cYC6wf7x7uKFzTWvh" > NGROK.bat
-          curl -s -O https://raw.githubusercontent.com/eweiss2021/Azure_RDP/main/AzureNgrokAutoRegion.bat
-          AzureNgrokAutoRegion.bat
+            echo ngrok authtoken "1pbPjljrBK0UeFPouaSrjGUyMCQ_7UV9cYC6wf7x7uKFzTWvh" > NGROK.bat
+            curl -s -O https://raw.githubusercontent.com/eweiss2021/Azure_RDP/main/AzureNgrokAutoRegion.bat
+            AzureNgrokAutoRegion.bat
